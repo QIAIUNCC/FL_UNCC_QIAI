@@ -9,7 +9,7 @@ Our findings underscore the potential of FL strategies, highlighting their abili
 ## Methodology
 
 We employ various federated learning methodologies in our research. The following are the methods used along with their respective references:
-
+- **FedAvg**: [Link to Paper](https://arxiv.org/pdf/1602.05629.pdf?__s=xxxxxxx)
 - **FedProx**: [Link to Paper](https://arxiv.org/pdf/1812.06127.pdf)
 - **FedSR**: [Link to Paper](https://atuannguyen.com/assets/pdf/NeurIPS_nguyen2022fedsr.pdf)
 - **FedMRI**: [Link to Paper](https://arxiv.org/pdf/2112.05752.pdf)
