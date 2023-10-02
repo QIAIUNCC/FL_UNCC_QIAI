@@ -1,5 +1,10 @@
 # Federated-Learning-for-Diagnosis-of-Age-Related-Macular-Degeneration
----
+
+# Introduction
+
+In our research, we delve into the application of federated learning (FL) for the classification of age-related macular degeneration (AMD) using optical coherence tomography image data. Utilizing both residual network and vision transformer encoders, our focus is on the binary classification of normal vs. AMD. Given the challenges posed by heterogeneous data distribution across different institutions, we've integrated four distinct domain adaptation techniques to mitigate domain shift issues.
+
+Our findings underscore the potential of FL strategies, highlighting their ability to rival the performance of centralized models, even when each local model only accesses a fragment of the training data. Of particular note is the Adaptive Personalization FL strategy, which consistently showcased superior performance in our evaluations. This research not only sheds light on the effectiveness of simpler architectures in image classification tasks but also emphasizes the importance of data privacy and decentralization. We believe that our work paves the way for future investigations into more intricate models and diverse FL strategies, aiming for a deeper comprehension of their performance nuances.
 
 # Dataset Repository
 
