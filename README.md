@@ -28,6 +28,3 @@ The dataset is organized into three main folders, each representing a different 
 
 There is an `.env` file located in `./data/.env`. Ensure to set the dataset path in this file before proceeding with any operations.
 
----
-
-You can copy and paste the above content into your GitHub repository's README.md file. If you need any additional sections or modifications, please let me know!
