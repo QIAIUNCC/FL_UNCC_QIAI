@@ -1,0 +1,8 @@
+/FedAvg/ResNet/lightning_logs/
+/FedSR/ResNet/lightning_logs/
+/FedMRI/ResNet/lightning_logs/
+/FedProx/ResNet/lightning_logs/
+/FedAvg/ViT/lightning_logs/
+/FedSR/ViT/lightning_logs/
+/FedMRI/ViT/lightning_logs/
+/FedProx/ViT/lightning_logs/

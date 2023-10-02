@@ -1,0 +1,44 @@
+using previous val set:
+    using AdamW and 10 epochs:
+    AdamW Cid 0 random search
+    Best parameters:  {'weight_decay': 0.0005256791122018424, 'learning_rate': 0.0003400411932703706, 'beta2': 0.9149246231155779, 'beta1': 0.8361809045226131, 'batch_size': 128}
+    Best score:  0.9693439602851868
+
+    AdamW Cid 1 random search
+    Best parameters:  {'weight_decay': 0.0005078152112327676, 'learning_rate': 1.3556017853293688e-05, 'beta2': 0.9338291457286432, 'beta1': 0.870854271356784, 'batch_size': 64}
+    Best score:  1.0
+
+    AdamW Cid 2 random search
+    Best parameters:  {'weight_decay': 0.00013650078065460138, 'learning_rate': 0.0004361537789208006, 'beta2': 0.9, 'beta1': 0.8567839195979899, 'batch_size': 32}
+    Best score:  1.0
+
+    avg:
+    wd: 3.89999e-4
+    lr: 2.6325033001482162933333333333333e-4
+    beta2: 0.9338291457286432
+    beta1: 0.854606365159129
+
+Using New Val set:
+    using AdamW and 10 epochs:
+    AdamW Cid 0 random search
+    Best parameters:  {'weight_decay': 9.727203192450536e-06, 'learning_rate': 0.0008470868266557402, 'beta2': 0.921391959798995, 'beta1': 0.8130653266331659, 'batch_size': 64}
+    Best score:  0.9712324738502502
+
+    AdamW Cid 1 random search
+    Best parameters:  {'weight_decay': 0.00013095350204826676, 'learning_rate': 0.00016003103137387001, 'beta2': 0.9507437185929648, 'beta1': 0.8045226130653267, 'batch_size': 32}
+    Best score:  1.0
+
+    AdamW Cid 2 random search
+    Best parameters:  {'weight_decay': 0.0007796360130405229, 'learning_rate': 0.00034716868189265597, 'beta2': 0.9577085427135679, 'beta1': 0.8502512562814071, 'batch_size': 32}
+    Best score:  1.0
+
+    AdamW Global random search
+    Best parameters:  {'weight_decay': 3.5690493456752295e-06, 'learning_rate': 0.00020244465099768038, 'beta2': 0.9825829145728643, 'beta1': 0.8170854271356784, 'batch_size': 32}
+    Best score:  0.975776731967926
+
+    avg:
+    wd: 4e-6
+    lr: 2e-4
+    beta2: 0.98
+    beta1: 0.82
+    batch size: 32

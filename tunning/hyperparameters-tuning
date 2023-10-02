@@ -1,0 +1,14 @@
+ResNet:
+    AdamW:
+        - Kermany: {'weight_decay': 1e-06, 'learning_rate': 0.0005336699231206312, 'beta2': 0.93, 'beta1': 0.888888888888889} Best score:  0.9608352184295654
+        - Srinivasan:  {'weight_decay': 4.037017258596558e-05, 'learning_rate': 4.037017258596558e-05, 'beta2': 0.9400000000000001, 'beta1': 0.8333333333333334} Best score:  1.0
+        - OCT-500: {'weight_decay': 4.037017258596558e-05, 'learning_rate': 4.037017258596558e-05, 'beta2': 0.9400000000000001, 'beta1': 0.8333333333333334}     Best score:  1.0
+        - Centralized: {'weight_decay': 4.977023564332114e-05, 'learning_rate': 0.0006135907273413176, 'beta2': 0.92, 'beta1': 0.9, 'batch_size': 64}  Best score:  0.9674375057220459
+
+
+ViT:
+    AdamW:
+        - Kermany: {'weight_decay': 2.0092330025650458e-05, 'learning_rate': 0.00014174741629268049, 'beta2': 0.98, 'beta1': 0.8333333333333334} Best score:  0.9316049218177795
+        - Srinivasan:  {'weight_decay': 2.310129700083158e-05, 'learning_rate': 0.0003511191734215131, 'beta2': 0.9, 'beta1': 0.8111111111111111} Best score:  1.0
+        - OCT-500: {'weight_decay': 4.037017258596558e-05, 'learning_rate': 4.037017258596558e-05, 'beta2': 0.9400000000000001, 'beta1': 0.8333333333333334} Best score:  1.0
+        - Centralized: {'weight_decay': 3.2745491628777315e-06, 'learning_rate': 0.0001519911082952933, 'beta2': 0.96, 'beta1': 0.8}  Best score:  0.9485912322998047

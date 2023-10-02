@@ -1,0 +1,16 @@
+flwr
+flwr[simulation]
+natsort
+pytorch_lightning
+lightning[extra]
+pillow
+mmcv
+pandas
+subsetsum
+openpyxl
+python-dotenv
+load-dotenv
+vit-pytorch
+chardet
+cchardet
+scikit-optimize
