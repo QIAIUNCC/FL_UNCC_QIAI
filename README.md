@@ -20,10 +20,9 @@ We employ various federated learning methodologies in our research. The followin
 
 This repository contains datasets for various research purposes. The datasets can be accessed via the following link:
 
-[Dataset Link](https://drive.google.com/file/d/1rqWGpwHWAPsYn2Rjzta1YwymYSoAN5ec/view?usp=drive_link)
-[Link to DS1](https://www.kaggle.com/datasets/paultimothymooney/kermany2018)
-[Link to DS2](https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm)
-[Link to DS3](https://ieee-dataport.org/open-access/octa-500)
+- [Link to DS1](https://www.kaggle.com/datasets/paultimothymooney/kermany2018)
+- [Link to DS2](https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm)
+- [Link to DS3](https://ieee-dataport.org/open-access/octa-500)
 ## Dataset Structure
 
 The dataset is organized into three main folders, each representing a different dataset:
