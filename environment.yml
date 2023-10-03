@@ -1,4 +1,4 @@
-name: flower2
+name: fl_uncc_qiai
 channels:
   - defaults
 dependencies:
