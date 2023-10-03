@@ -59,26 +59,7 @@ def train_local_model(train_loader, val_loader, mode, monitor, name_suffix, clas
                              ])
         trainer.fit(model, train_loader, val_loader)
         model = ViT.load_from_checkpoint(trainer.checkpoint_callback.best_model_path)
-    # config = {"train_batch_size": batch_size, "max_epochs": max_epochs, 'current_round': 10}
-    # log_name = f'log/{name_suffix}_{model_architecture}_{batch_size}'
-    # kermany_test_results = trainer.test(model, kermany_test_loader, verbose=False)
-    # log_results(classes, kermany_test_results, client_name, model_architecture,
-    #             config, log_suffix="Kermnay", approach="local")
-    # srinivasan_test_results = trainer.test(model, srinivasan_test_loader, verbose=False)
-    # log_results(classes, srinivasan_test_results, client_name, model_architecture,
-    #             config, log_suffix="Srinivasan", approach="local")
-    # oct500_test_results = trainer.test(model, oct500_test_loader, verbose=False)
-    # log_results(classes, oct500_test_results, client_name, model_architecture,
-    #             config, log_suffix="OCT-500", approach="local")
 
-    # plot_auc(model=model,
-    #          log_name=log_name + "_" + str(max_epochs),
-    #          test_datasets={
-    #              "Kermany": kermany_test_loader,
-    #              "Srinivasan": srinivasan_test_loader,
-    #              "OCT-500": oct500_test_loader,
-    #          },
-    #          title=client_name)
     del model
     torch.cuda.empty_cache()
 
@@ -134,13 +115,7 @@ if __name__ == "__main__":
     count_0 = 0
     count_1 = 0
 
-    # for batch in oct500_test_loader:
-    #     labels = batch['label']
-    #     count_0 += (labels == 0).sum().item()
-    #     count_1 += (labels == 1).sum().item()
-    #
-    # print(f"Number of entries with label 0: {count_0}")
-    # print(f"Number of entries with label 1: {count_1}")
+  
     for i in range(0, 1):
         # train_local_model(kermany_train_loader, kermany_val_loader, mode=mode, monitor=monitor, client_name="Kermany",
         #                   name_suffix="kermany_local_model", classes=kermany_classes, batch_size=batch_size,
