@@ -58,9 +58,44 @@ dataset
         └── test
             ├── OCTA_3mm
             └── OCTA_6mm
-
 ```
 
 ## Configuration
 There is an .env file located in ./data/.env. Ensure to set the dataset path in this file before proceeding with any operations.
+Certainly! Here's a suggested addition to your GitHub README file for the installation part using the `environment.yml` file:
+
+---
+
+## Installation
+
+To set up the environment and dependencies required for this project, we provide an `environment.yml` file. Follow the steps below to create a Conda virtual environment using this file:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone [YOUR_GITHUB_REPO_LINK]
+   cd [YOUR_REPO_NAME]
+   ```
+
+2. **Install Conda**:
+   If you haven't installed Conda yet, download and install it from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+
+3. **Create a Conda Environment**:
+   Use the `environment.yml` file to create a new Conda environment:
+   ```bash
+   conda env create -f environment.yml
+   ```
+
+4. **Activate the Environment**:
+   ```bash
+   conda activate [YOUR_ENVIRONMENT_NAME]
+   ```
+
+   Note: Replace `[YOUR_ENVIRONMENT_NAME]` with the name of the environment specified in the `environment.yml` file. If you didn't specify a name, it defaults to the directory name.
+
+5. **Run the Code**:
+   Now that you have activated the environment, you can run the code in this repository.
+
+---
+
+Make sure to replace `[YOUR_GITHUB_REPO_LINK]` with the actual link to your GitHub repository and `[YOUR_REPO_NAME]` with the name of your repository. If you've specified a custom name for the environment in the `environment.yml` file, replace `[YOUR_ENVIRONMENT_NAME]` with that name. Otherwise, users can use the directory name as the environment name.
 
