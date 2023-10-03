@@ -63,23 +63,6 @@ def train_model(architecture):
 
         #
     config = {"train_batch_size": batch_size, "max_epochs": max_epochs, 'current_round': 10}
-    # kermany_test_results = trainer.test(model, kermany_test_loader, verbose=False)
-    # log_results(kermany_classes, kermany_test_results, "", model_architecture,
-    #             config, log_suffix="Kermnay", approach="Centralized")
-    # srinivasan_test_results = trainer.test(model, srinivasan_test_loader, verbose=False)
-    # log_results(srinivasan_classes, srinivasan_test_results, "", model_architecture,
-    #             config, log_suffix="Srinivasan", approach="Centralized")
-    # oct500_test_results = trainer.test(model, oct500_test_loader, verbose=False)
-    # log_results(oct500_classes, oct500_test_results, "", model_architecture,
-    #             config, log_suffix="OCT-500", approach="Centralized")
-    #
-    # log_name = f'log/{name_suffix}_{model_architecture}_{batch_size}'
-    # plot_auc(model=model,
-    #          log_name=log_name + "_" + str(max_epochs),
-    #          test_datasets={"Kermany": kermany_test_loader,
-    #                         "Srinivasan": srinivasan_test_loader,
-    #                         "OCT-500": oct500_test_loader},
-    #          title="Centralized "+model_architecture)
 
 
 if __name__ == "__main__":
