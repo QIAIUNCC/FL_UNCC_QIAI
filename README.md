@@ -94,6 +94,3 @@ To set up the environment and dependencies required for this project, we provide
    Now that you have activated the environment, you can run the code in this repository.
 
 ---
-
-Make sure to replace `[YOUR_GITHUB_REPO_LINK]` with the actual link to your GitHub repository and `[YOUR_REPO_NAME]` with the name of your repository. If you've specified a custom name for the environment in the `environment.yml` file, replace `[YOUR_ENVIRONMENT_NAME]` with that name. Otherwise, users can use the directory name as the environment name.
-
