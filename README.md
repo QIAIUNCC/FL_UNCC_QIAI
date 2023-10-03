@@ -72,8 +72,8 @@ To set up the environment and dependencies required for this project, we provide
 
 1. **Clone the Repository**:
    ```bash
-   git clone [YOUR_GITHUB_REPO_LINK]
-   cd [YOUR_REPO_NAME]
+   git clone git@github.com:QIAIUNCC/FL_UNCC_QIAI.git
+   cd FL_UNCC_QIAI
    ```
 
 2. **Install Conda**:
@@ -87,10 +87,8 @@ To set up the environment and dependencies required for this project, we provide
 
 4. **Activate the Environment**:
    ```bash
-   conda activate [YOUR_ENVIRONMENT_NAME]
+   conda activate fl_uncc_qiai
    ```
-
-   Note: Replace `[YOUR_ENVIRONMENT_NAME]` with the name of the environment specified in the `environment.yml` file. If you didn't specify a name, it defaults to the directory name.
 
 5. **Run the Code**:
    Now that you have activated the environment, you can run the code in this repository.
