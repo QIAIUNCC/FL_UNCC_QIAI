@@ -28,16 +28,37 @@ This repository contains datasets for various research purposes. The datasets ca
 The dataset is organized into three main folders, each representing a different dataset:
 
 ```
-.
-├── DS1: Kermany et al. dataset
-│   ├── training
-│   └── test
-├── DS2: Serinivasan et al. dataset
-│   ├── training
-│   └── test
-└── DS3: OCT-500 dataset
-    ├── training
-    └── test
+dataset
+    ├── 0:
+    │   ├── train
+    │   │   ├── AMD
+    │   │   └── NORMAL
+    │   └── test
+    │       ├── AMD
+    │       └── NORMAL
+    ├── 1:
+    │   ├── train
+    │   │   ├── AMD1
+    │   │   ├── ...
+    │   │   ├── AMD12
+    │   │   ├── NORMAL1
+    │   │   ├── ...
+    │   │   └── NORMAL12
+    │   └── test
+    │       ├── AMD13
+    │       ├── ...
+    │       ├── AMD15
+    │       ├── NORMAL13
+    │       ├── ...
+    │       └── NORMAL15
+    └── 2:
+        ├── train
+        │   ├── OCTA_3mm
+        │   └── OCTA_6mm
+        └── test
+            ├── OCTA_3mm
+            └── OCTA_6mm
+
 ```
 
 ## Configuration
